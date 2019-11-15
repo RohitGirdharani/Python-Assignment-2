@@ -1,0 +1,63 @@
+Q#1
+subject1=int(input("Enter marks of the first subject: "))
+subject2=int(input("Enter marks of the second subject: "))
+subject3= int(input("Enter marks of the third subject: "))
+subject4=int(input("Enter marks of the fourth subject: "))
+subject5=int(input("Enter marks of the fifth subject: "))
+
+Total=(subject1+subject2+subject3+subject4+subject5)
+Average=float(Total/5)
+print("Marks in subject 1: " ,subject1)
+print("Marks in subject 2: " ,subject2)
+print("Marks in subject 3: " ,subject3)
+print("Marks in subject 4: " ,subject4)
+print("Marks in subject 5: " ,subject5)
+
+
+print("Total Marks: ", Total)
+print("Average Marks: ", Average)
+
+if(Average>=90):
+ print("Grade A")
+elif (Average>=80 and Average < 90):
+    print("Grade B")
+elif(Average>=70 and Average <80):
+    print("Grade C")
+elif(Average>=60 and  Average <70):
+    print("Grade D")
+else:
+    print("Grade F")
+
+
+
+Q#2
+number= int(input("Enter the number: "))
+mod=number%2
+if(mod==0):
+    print("Number is Even.")
+else:
+    print("Number is Odd.")
+
+
+Q#3
+array= [10,20,30,40,50]
+length= len(array)
+print("The length of the list is: ",length)
+
+
+Q#4
+array= [10,20,30,40,50,60,70]
+Sum=sum(array)
+print(Sum)
+
+Q#5 
+array= [10,20,30,40,50,60,70]
+maximum=max(array)
+print(maximum)
+
+Q#6
+array = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+for i in array:
+    if i<5:
+        print(i)
